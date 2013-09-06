@@ -1,3 +1,4 @@
 http-method
 post: aUrl data: aByteString
-	^ self client post: aUrl url contents: aByteString
+	self url: aUrl.
+	^ self client post: self clientUrl contents: aByteString

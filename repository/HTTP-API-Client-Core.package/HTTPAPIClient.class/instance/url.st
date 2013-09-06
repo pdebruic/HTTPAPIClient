@@ -1,3 +1,3 @@
 urls
 url
-	^ self defaultUrl new
+	^ url ifNil: [ url := self defaultUrl new ]

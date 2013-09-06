@@ -1,3 +1,4 @@
 http-method
 head: aUrl
-	^ self client head: aUrl url
+	self url: aUrl.
+	^ self head

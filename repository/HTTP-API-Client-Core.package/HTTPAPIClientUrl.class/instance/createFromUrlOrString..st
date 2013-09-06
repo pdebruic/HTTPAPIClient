@@ -1,0 +1,3 @@
+as yet unclassified
+createFromUrlOrString: aUrlOrString
+	self subclassResponsibility

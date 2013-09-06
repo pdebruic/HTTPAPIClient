@@ -1,3 +1,4 @@
 http-method
-delete: aZnUrl 
-^	self client delete: aZnUrl url
+delete: aUrl
+	self url: aUrl.
+	^ self delete

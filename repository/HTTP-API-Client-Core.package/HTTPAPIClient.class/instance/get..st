@@ -1,3 +1,4 @@
 http-method
 get: aUrl
-	^ self client get: aUrl url
+	self url: aUrl.
+	^ self get
