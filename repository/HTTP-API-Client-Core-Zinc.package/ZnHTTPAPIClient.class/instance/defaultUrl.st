@@ -1,3 +1,3 @@
 as yet unclassified
 defaultUrl
-	^ ESZnUrl
+	^ ZnHTTPAPIClientUrl
