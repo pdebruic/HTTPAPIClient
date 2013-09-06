@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "HTTPAPIClientUrl",
+	"category" : "HTTP-API-Client-Zinc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZnHTTPAPIClientUrl",
+	"type" : "normal"
+}
