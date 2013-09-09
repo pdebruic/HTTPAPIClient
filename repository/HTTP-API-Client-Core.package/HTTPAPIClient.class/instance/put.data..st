@@ -1,3 +1,4 @@
 as yet unclassified
-put: url data: someData
-	^ self client put: url url contents: someData
+put: aUrl data: someData
+	self url: aUrl.
+	^ self client put: self clientUrl contents: someData
