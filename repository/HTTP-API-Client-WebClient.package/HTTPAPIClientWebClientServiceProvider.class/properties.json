@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ServiceProvider",
+	"category" : "HTTP-API-Client-WebClient",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HTTPAPIClientWebClientServiceProvider",
+	"type" : "normal"
+}

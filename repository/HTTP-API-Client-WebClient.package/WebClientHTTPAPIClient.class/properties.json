@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "HTTPAPIClient",
+	"category" : "HTTP-API-Client-WebClient",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WebClientHTTPAPIClient",
+	"type" : "normal"
+}
