@@ -26,10 +26,10 @@
 		"url:" : "PaulDeBruicker 9/6/2013 11:25"
 	},
 	"class" : {
-		"httpClient" : "PaulDeBruicker 9/6/2013 08:56",
+		"httpClient" : "PaulDeBruicker 9/26/2014 07:59",
 		"resetClient" : "PaulDeBruicker 9/6/2013 08:56",
 		"defaultPort" : "PaulDeBruicker 9/6/2013 08:56",
 		"defaultHostName" : "PaulDeBruicker 9/6/2013 08:56",
-		"defaultHttpClient" : "PaulDeBruicker 9/6/2013 09:09"
+		"defaultHTTPClientClass" : "PaulDeBruicker 9/26/2014 07:58"
 	}
 }

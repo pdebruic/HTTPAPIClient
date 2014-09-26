@@ -1,3 +1,3 @@
 as yet unclassified
 httpClient
-	^  self defaultHttpClient new 
+	^ self defaultHTTPClientClass new
