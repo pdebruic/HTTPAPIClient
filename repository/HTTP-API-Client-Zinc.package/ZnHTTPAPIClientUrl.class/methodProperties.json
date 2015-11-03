@@ -1,7 +1,9 @@
 {
 	"instance" : {
+		"createFromUrlOrString:" : "PaulDeBruicker 9/6/2013 10:42",
 		"defaultUrl" : "PaulDeBruicker 9/6/2013 08:59",
-		"createFromUrlOrString:" : "PaulDeBruicker 9/6/2013 10:42"
+		"asUrl" : "PaulDeBruicker 11/3/2015 10:59",
+		"asZnUrl" : "PaulDeBruicker 11/3/2015 11:00"
 	},
 	"class" : { }
 }
