@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"baselinePharo:" : "PaulDeBruicker 10/10/2019 09:32",
+		"baselineSqueak:" : "PaulDeBruicker 10/10/2019 09:31",
+		"baselineGemStone:" : "PaulDeBruicker 10/10/2019 09:32",
+		"baseline:" : "PaulDeBruicker 10/10/2019 09:49"
+	},
+	"class" : { }
+}
