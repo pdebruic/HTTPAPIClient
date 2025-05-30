@@ -1,5 +1,6 @@
 as yet unclassified
 defaultHTTPClientClass
-	^ (MetacelloPlatform current defaultPlatformAttributes includes: '#squeak')
-		ifTrue: [ Smalltalk at: #WebClientHTTPAPIClient ]
-		ifFalse: [ Smalltalk at: #ZnHTTPAPIClient ]
+
+	(Smalltalk at: #ZnClient ifAbsent: [ nil ])
+		ifNil: [ ^ Smalltalk at: #WebClientHTTPAPIClient ]
+		ifNotNil: [ :zc | ^ Smalltalk at: #ZnHTTPAPIClient ]

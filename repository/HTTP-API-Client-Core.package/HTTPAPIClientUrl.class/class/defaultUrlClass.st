@@ -1,5 +1,6 @@
 as yet unclassified
 defaultUrlClass
-	^ (MetacelloPlatform current defaultPlatformAttributes includes: '#squeak')
-		ifTrue: [ Smalltalk at: #WebClientHTTPAPIClientUrl ]
-		ifFalse: [ Smalltalk at: #ZnHTTPAPIClientUrl ]
+
+	(Smalltalk at: #ZnUrl ifAbsent: [ nil ])
+		ifNil: [ ^ Smalltalk at: #WebClientHTTPAPIClientUrl ]
+		ifNotNil: [ :zu | ^ Smalltalk at: #ZnHTTPAPIClientUrl ]
