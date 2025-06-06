@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'HTTP-API-Client-Core'!
+self packageOrganizer ensurePackage: #'HTTP-API-Client-Core' withTags: #()!
